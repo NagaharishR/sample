@@ -78,8 +78,8 @@ class _MyAppState extends State<MyApp> {
                         "Scissor's",
                         style: GoogleFonts.openSans(
                           textStyle: TextStyle(
-                            color: Colors.indigo,
-                            fontWeight: FontWeight.w900,
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
                             fontSize: 15,
                           ),
                         ),
@@ -89,8 +89,8 @@ class _MyAppState extends State<MyApp> {
                         "Services",
                         style: GoogleFonts.openSans(
                           textStyle: TextStyle(
-                            color: Colors.indigo,
-                            fontWeight: FontWeight.w900,
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
                             fontSize: 25,
                           ),
                         ),

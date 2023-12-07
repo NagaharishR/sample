@@ -32,8 +32,8 @@ class _ListScreenState extends State<ListScreen> {
                           borderRadius: BorderRadius.circular(8),
                           child: Image.asset(
                             service.images,
-                            height: 90,
-                            width: 100,
+                            height: 55,
+                            width: 85,
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -71,7 +71,7 @@ class _ListScreenState extends State<ListScreen> {
                         service.description,
                         style: GoogleFonts.poppins(
                           textStyle: TextStyle(
-                            fontSize: 10,
+                            fontSize: 12,
                           ),
                         ),
                       ),
