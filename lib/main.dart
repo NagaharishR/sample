@@ -84,7 +84,7 @@ class _MyAppState extends State<MyApp> {
                       ),
                     ),
                   ]),
-                  SizedBox(height: 5,),
+                  SizedBox(height: 2,),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
