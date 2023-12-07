@@ -71,20 +71,23 @@ class _MyAppState extends State<MyApp> {
                       ),
                     ],
                   ),
-                  Row(
-                    children: [
-                      Padding(padding: EdgeInsets.symmetric(horizontal: 17.0)),
-                      Text(
-                        "Scissor's",
-                        style: GoogleFonts.openSans(
-                          textStyle: TextStyle(
-                            color: Colors.black,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 15,
-                          ),
+                  Row(children: [
+                    Padding(padding: EdgeInsets.symmetric(horizontal: 17.0)),
+                    Text(
+                      "Scissor's",
+                      style: GoogleFonts.openSans(
+                        textStyle: TextStyle(
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 15,
                         ),
                       ),
-                      SizedBox(width: 50),
+                    ),
+                  ]),
+                  SizedBox(height: 5,),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
                       Text(
                         "Services",
                         style: GoogleFonts.openSans(

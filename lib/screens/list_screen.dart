@@ -24,7 +24,7 @@ class _ListScreenState extends State<ListScreen> {
               Services service = ServicesList[index];
               return Card(
                 child: Container(
-                  padding: EdgeInsets.all(8), // Adjust the padding here
+                  padding: EdgeInsets.all(8),
                   child: ListTile(
                     title: Row(
                       children: [
