@@ -16,11 +16,11 @@ class Services {
 }
 
 List<Services>ServicesList=[
-  Services(name: 'Mens Haircut', price: 'Rs 200/-', description: '(You look sleek with your new haurcut.)', images:  'image/haircuttingsalon.jpg',),
-  Services(name:'Mens shaving', price: 'Rs 200/-', description: '(professional beard grooming that suits your face shape.)', images:  'image/shaving.jpeg',),
-  Services(name: 'Hair colour',price: 'Rs 300/-', description: '(Even and mess-free color application.)', images: 'image/haircolor.jpeg',),
-  Services(name: 'Face care', price: 'Rs 500/-', description: '(Cleansing of neck, face along with scrubbing and deep cleaning of face.)', images:  'image/facecare.jpeg',),
-  Services(name:'Massage', price: 'Rs 400/-', description: '(Relaxing Oil massage to treat muscle & relieve stress.)', images:  'image/massage.jpeg',),
+  Services(name: 'Mens Haircut', price: 'Rs 200/-', description: '(Haircut that suits your face.)', images:  'image/haircuttingsalon.jpg',),
+  Services(name:'Mens shaving', price: 'Rs 200/-', description: '(Beard grooming that suits your face.)', images:  'image/shaving.jpeg',),
+  Services(name: 'Hair colour',price: 'Rs 300/-', description: '(Even & mess-free color application.)', images: 'image/haircolor.jpeg',),
+  Services(name: 'Face care', price: 'Rs 500/-', description: '(Cleaning of face along with scrubbing.)', images:  'image/facecare.jpeg',),
+  Services(name:'Massage', price: 'Rs 400/-', description: '(Relaxing Oil massage to relieve stress.)', images:  'image/massage.jpeg',),
 
 
 

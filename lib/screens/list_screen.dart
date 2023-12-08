@@ -18,7 +18,7 @@ class _ListScreenState extends State<ListScreen> {
       children: [
         Expanded(
           child: ListView.builder(
-            padding: EdgeInsets.symmetric(vertical: 1),
+            padding: EdgeInsets.symmetric(vertical: 2),
             itemCount: ServicesList.length,
             itemBuilder: (context, index) {
               Services service = ServicesList[index];
@@ -57,6 +57,7 @@ class _ListScreenState extends State<ListScreen> {
                                 style: GoogleFonts.poppins(
                                   textStyle: TextStyle(
                                     fontSize: 15,
+                                    fontWeight: FontWeight.bold,
                                   ),
                                 ),
                               ),
@@ -66,16 +67,19 @@ class _ListScreenState extends State<ListScreen> {
                       ],
                     ),
                     subtitle: Padding(
-                      padding: const EdgeInsets.only(top: 8),
+                      padding: const EdgeInsets.symmetric(vertical: 4),
                       child: Text(
                         service.description,
                         style: GoogleFonts.poppins(
                           textStyle: TextStyle(
                             fontSize: 12,
+                            overflow: TextOverflow.ellipsis,
                           ),
+
                         ),
                       ),
                     ),
+
                     trailing: ElevatedButton(
                       onPressed: () {
                         _toggleService(service);

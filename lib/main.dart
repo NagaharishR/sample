@@ -59,6 +59,7 @@ class _MyAppState extends State<MyApp> {
               ),
               child: Column(
                 children: [
+                  Padding(padding: EdgeInsets.symmetric(vertical: 10)),
                   Row(
                     children: [
                       Padding(
@@ -79,12 +80,12 @@ class _MyAppState extends State<MyApp> {
                         textStyle: TextStyle(
                           color: Colors.black,
                           fontWeight: FontWeight.bold,
-                          fontSize: 15,
+                          fontSize: 20,
                         ),
                       ),
                     ),
                   ]),
-                  SizedBox(height: 5,),
+
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
